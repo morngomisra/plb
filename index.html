@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Redirect</title>
+    <script>
+        // Array containing the target URLs
+        const urls = [
+            "https://plb1x1.com",
+            "https://plb1x1.net"
+        ];
+
+        // Pick a random index (0 or 1) and redirect
+        const randomIndex = Math.floor(Math.random() * urls.length);
+        window.location.href = urls[randomIndex];
+    </script>
+</head>
+<body>
+    <p></p>
+</body>
+</html>
